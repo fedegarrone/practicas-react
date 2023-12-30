@@ -1,6 +1,6 @@
-export function Square({ updateBoard, isSelected, index ,children }) {
+export function Square({ updateBoard, isSelected, index ,children, isWinner }) {
   
-  const squareClassName = `square ${isSelected ? "is-selected" : ""}`
+  const squareClassName = `square ${isSelected ? "is-selected" : ""} ${isWinner ? "is-winner" : ""}`
 
   const handleClick = () => {
     updateBoard(index)

@@ -7,6 +7,9 @@
     "extends": "./node_modules/standard/eslintrc.json"
   },
   "dependencies": {
-    "prop-types": "^15.8.1"
+    "canvas-confetti": "^1.9.2",
+    "confetti": "^2.0.3",
+    "prop-types": "^15.8.1",
+    "react-confetti": "^6.1.0"
   }
 }
